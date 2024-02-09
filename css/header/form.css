@@ -1,0 +1,112 @@
+.container-formulario {
+  width: 500px;
+  height: 700px;
+  background-color: rgba(14, 1, 1, 0.918);
+  margin: 155px 0 0 200px;
+  border-radius: 15px;
+}
+
+.primeiro-formulario h1 {
+  align-self: center;
+  justify-self: end;
+  font-size: 3em;
+  letter-spacing: 0.09rem;
+  padding: 50px 70px;
+  color: rgb(163, 36, 36);
+  text-align: center;
+}
+
+.primeiro-formulario h1::after {
+  content: "";
+  display: block;
+  width: 350px;
+  margin-left: 5px;
+  margin-top: 15px;
+  height: 3px;
+  background-color: rgba(209, 5, 5, 1);
+  border-radius: 10px;
+}
+
+.primeiro-formulario p {
+  text-align: justify;
+  margin: 0 40px 20px 80px;
+  color: white;
+
+  width: 340px;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  text-indent: auto;
+}
+
+#emailInput {
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  margin-left: 80px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.button-container::before {
+  content: "";
+  display: block;
+  width: 350px;
+  margin-left: 75px;
+  margin-top: 15px;
+  height: 3px;
+  background-color: rgba(209, 5, 5, 1);
+  border-radius: 10px;
+}
+
+.form-button {
+  background-color: red;
+  width: 150px;
+  padding: 20px;
+  margin-left: 180px;
+  margin-top: 30px;
+  border-radius: 15px 15px;
+  position: relative;
+}
+
+.password {
+  margin-top: 20px;
+  text-align: center;
+  color: rgba(131, 123, 123, 0.219);
+}
+
+@media (max-width: 800px) {
+  .container-formulario {
+    max-width: 450px;
+    height: 700px;
+    background-color: rgba(14, 1, 1, 0.918);
+    margin: 100px 200px -100px 50px;
+    border-radius: 15px;
+  }
+  .primeiro-formulario h1 {
+    align-self: center;
+    justify-self: end;
+    font-size: 2em;
+    letter-spacing: 0.09rem;
+    padding: 40px 50px;
+    color: rgb(163, 36, 36);
+    text-align: center;
+  }
+  .primeiro-formulario p {
+    text-align: left;
+
+    color: white;
+    max-width: 350px;
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  .primeiro-formulario h1::after {
+    content: "";
+    display: block;
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 15px;
+    height: 3px;
+    background-color: rgba(209, 5, 5, 1);
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+form {
+  display: block;
+}
+
+.animacaoAtivada {
+  animation: moveBackground 100s ease-in-out infinite;
+  transition: opacity 0.5s ease; /* Adiciona uma transição de opacidade */ /* Adiciona a 
+  animação quando a classe está presente */
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0; /* Posição inicial */
+  }
+  50% {
+    background-position: 30% 0; /* Posição final */
+  }
+  100% {
+    background-position: 0 0; /* Volta à posição inicial */
+  }
+}
