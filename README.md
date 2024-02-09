@@ -4,4 +4,4 @@
 + Figma Utilizado
 
 
-<img src="https://gifdb.com/images/high/chainsaw-man-pochita-ratio-dy57phiw0wtqbchx.webp">
+<img src="https://gifdb.com/images/high/chainsaw-man-denji-artwork-0e5undmwi75ix7kn.gif">
