@@ -4,4 +4,4 @@
 + Figma Utilizado
 
 
-<img src="https://gifdb.com/images/high/chainsaw-man-denji-artwork-0e5undmwi75ix7kn.gif" width: 300px height: 300px>
+<img src="https://gifdb.com/images/high/chainsaw-man-denji-artwork-0e5undmwi75ix7kn.gif" width="300" height="300">
