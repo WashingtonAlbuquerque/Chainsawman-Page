@@ -1,3 +1,8 @@
 #Projeto CHAINSAW MAN LOADING PAGE EM DESENVOLVIMENTO
+# PROJETO CHAINSAW MAN EM DESENVOLVIMETNO
 
-<img src="https://gifdb.com/images/high/chainsaw-man-cute-pochita-qisyjfw3itkbixo2.gif" alt="Projeto em Andamento"> 
++ Desenvolvido em HTML,CSS & JAVASCRIPT 
++ Figma Utilizado
+
+
+<img src="https://gifdb.com/images/high/chainsaw-man-pochita-ratio-dy57phiw0wtqbchx.webp">
