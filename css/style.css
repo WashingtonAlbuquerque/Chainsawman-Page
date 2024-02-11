@@ -7,3 +7,11 @@
 
 /* Formulario */
 @import "/css/header/form.css";
+
+/* Article */
+
+@import "/css/article/article.css";
+
+/* Personagens */
+
+@import "/css/article/personagens.css";

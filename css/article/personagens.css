@@ -1,0 +1,27 @@
+.personagens {
+  display: flex;
+  margin-top: 200px;
+  margin-left: 200px;
+  flex-wrap: wrap;
+}
+
+.personagens li {
+  text-align: center; /* Centraliza o conteúdo */
+  width: 350px;
+  height: 450px;
+  background-color: #6b6565;
+  margin: 10px; /* Adiciona margem entre os elementos */
+  margin-left: 50px;
+  padding: 20px; /* Adiciona espaço interno para melhorar a aparência */
+}
+.personagens img {
+  width: 100%;
+  width: 400px;
+  height: auto; /* Garante que a imagem ocupe 100% da largura do contêiner pai */
+  max-width: 200px; /* Define uma largura máxima para as imagens */
+}
+
+.personagens p {
+  color: red;
+  justify-content: start;
+}

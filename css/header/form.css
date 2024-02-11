@@ -1,9 +1,11 @@
 .container-formulario {
-  width: 500px;
-  height: 700px;
+  width: 480px;
+  height: 620px;
   background-color: rgba(14, 1, 1, 0.918);
   margin: 155px 0 0 200px;
   border-radius: 15px;
+  display: flex;
+  align-items: start;
 }
 
 .primeiro-formulario h1 {
