@@ -1,0 +1,12 @@
+.selector-wallpaper h1 {
+  font-size: 3rem;
+  margin: 20px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.selector-wallpaper img {
+  width: 100%;
+}
