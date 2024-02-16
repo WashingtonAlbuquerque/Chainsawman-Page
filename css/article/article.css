@@ -1,7 +1,7 @@
 article {
   background-color: rgba(17, 14, 14, 1);
   width: 100vw;
-  height: 100rem;
+  height: 100%;
   box-sizing: border-box;
   padding: 50px 50px;
 }

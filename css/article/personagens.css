@@ -1,8 +1,8 @@
 .personagens {
   display: flex;
-  margin-top: 200px;
-  margin-left: 200px;
+  justify-content: center;
   flex-wrap: wrap;
+  flex: 1 1 200px;
 }
 
 .personagens li {
@@ -13,15 +13,34 @@
   margin: 10px; /* Adiciona margem entre os elementos */
   margin-left: 50px;
   padding: 20px; /* Adiciona espaço interno para melhorar a aparência */
+  border-radius: 5px;
 }
+
 .personagens img {
-  width: 100%;
   width: 400px;
-  height: auto; /* Garante que a imagem ocupe 100% da largura do contêiner pai */
-  max-width: 200px; /* Define uma largura máxima para as imagens */
+  height: 400px; /* Garante que a imagem ocupe 100% da largura do contêiner pai */
+  max-width: 250px; /* Define uma largura máxima para as imagens */
 }
 
 .personagens p {
-  color: red;
-  justify-content: start;
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Media query para ajustar o layout em telas menores */
+@media (max-width: 800px) {
+  .personagens li {
+    height: auto;
+    padding: 5px;
+    margin-left: 0px;
+  }
+
+  .personagens img {
+    width: 100%; /* Define a largura para ocupar 100% da largura do container pai */
+    height: auto;
+    margin-left: 0; /* Remove a margem esquerda */
+  }
 }
