@@ -1,0 +1,22 @@
+#wallpapers.active {
+  animation: 0.5s ease-in-out forwards;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(10%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(60);
+    opacity: 1;
+  }
+}
+
+#off.transition {
+  transition: all 1.3s ease;
+}
+
+#off.rotate {
+  transform: rotate(20deg);
+}

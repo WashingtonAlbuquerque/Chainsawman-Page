@@ -1,10 +1,8 @@
 .selector-wallpaper h1 {
   font-size: 3rem;
-  margin: 20px;
-  text-align: center;
+  margin: 40px;
   color: #fff;
-  text-transform: uppercase;
-  margin-bottom: 50px;
+  text-align: center;
 }
 
 .selector-wallpaper img {
